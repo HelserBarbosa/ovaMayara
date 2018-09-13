@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+	figure.menu img
+	{
+		box-shadow : 1px 1px gray;
+		position : relative;
+		left  : -250px;
+		width : 10%;		
+	}
+	figure.menu figcaption
+	{	
+		left : -248px;
+		top : -35px;
+		text-decoration : none;
+		color : gray;
+		font-family : Overlock, sans-serif;
+		font-size : 10pt;
+		font-weight : bolder;
+		position : relative;
+		opacity : 0;
+		transition : opacity 1s;
+		size : 
+	}
+	figure.menu:hover figcaption
+	{
+			opacity: 1 ; 
+	}
+	figure.tabela
+	{
+		display: flex;
+		justify-content : center;
+	}
+	figure.link
+	{
+		display : block;
+		box-shadow : 2px 2px 2px 2px rgb(50,50,50);
+		background-color : rgb(150,150,150);
+		border-radius : 10px;
+	}
+	figure.link img
+	{
+		position : relative;
+		top : 20px;
+		left : 10px;
+	}
+	figure.link figcaption
+	{
+		font-weight : bolder;
+		position : relative;
+		top : -35px;
+		left : 80px;
+		font-size : small;
+	}
+	
+	figure.aviso
+	{
+		display : block;
+		box-shadow : 2px 2px 2px 2px rgb(50,50,50);
+		background-color : rgb(150,150,150);
+		border-radius : 10px;
+	}
+	figure.aviso img
+	{
+		position : relative;
+		top : 20px;
+		left : 10px;
+	}
+	figure.aviso figcaption
+	{
+		font-weight : bolder;
+		color : rgb(137,34,34);
+		position : relative;
+		top : -35px;
+		left : 80px;
+		font-size : small;
+	}
+	figure.dicas
+	{
+		display : block;
+	}

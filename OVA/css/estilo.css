@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+h1
+{
+	font-size : 25px;
+	font-family : Overlock, sans-serif;
+	text-shadow : 1px 1px gray;
+	box-shadow : 1px 1px 1px 1px gray;
+	border-radius : 10px;
+	background-color: rgb(240,240,240);
+}
+h2
+{
+	font-weight : normal;
+	font-size : 20px;
+	text-indent : 60px;
+}
+h1.titulo
+{
+	
+	font-size : 50px;
+	text-shadow : 2px 2px gray;
+	border-radius : 10px;
+	background-color: rgb(150,150,150);
+}
+
+h1.sistema
+{
+	background-color: rgb(200,200,200);
+	box-shadow : 1px 1px 1px 1px gray;
+	border-radius : 10px;
+	color : rgb(184,134,11);
+	font-size : 50px;
+}
+
+body
+{	
+	background : rgb(50,50,50);
+}
+div.principal
+{	
+	padding : 50px;
+	text-align : justify;
+	top : -10px;
+	margin-left : 150px;
+	margin-right : 150px;
+	padding-bottom : 25px;
+	position : absolute;
+	background-image : url('imagens/imagem_conceito.png');
+	box-shadow : 5px 5px 5px 5px black;
+}
+
+div.principal h1
+{
+	text-align : center;
+}
+div#menu{
+	display : block;
+	position : absolute;
+}
+a
+{
+	font-weight : bolder;
+	font-size : 10px;
+	text-transform : uppercase;
+	text-decoration: none;
+	color : black;
+}
+a:visited
+{
+	font-weight : bolder;
+	color : black;
+}
+a.link
+{
+	text-transform : uppercase;
+	color : blue;
+}
+div.exercicio
+{
+	background-color : rgb(200,200,200); 
+	box-shadow : 4px 4px 4px 4px rgb(50,50,50);
+	padding : 10px;
+	border-radius : 10px;
+}
+h4
+{
+	font-size : 20px;
+	display : block;
+	position : relative;
+	top : -20px;
+	text-align : center;
+}
