@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+h3
+{
+	text-align : justify;
+}
 span
 {
 	font-style : italic;
@@ -64,7 +68,7 @@ h5.ano2014
 	text-align : center;
 	display : float;
 	left : 463px;
-	bottom : 400px;
+	bottom : 500px;
 	background : white;
 	margin-right : 830px;
 	font-size : 25px;
