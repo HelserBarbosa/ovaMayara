@@ -23,6 +23,14 @@ h1.titulo
 	border-radius : 10px;
 	background-color: rgb(150,150,150);
 }
+h1.inicio
+{
+	background-color: rgb(200,200,200);
+	box-shadow : 1px 1px 1px 1px gray;
+	border-radius : 10px;
+	color : rgb(0,0,139);
+	font-size : 50px;
+}
 
 h1.sistema
 {
@@ -42,7 +50,7 @@ h1.legislacao
 }
 h1.conceito
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(150,150,150);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(0,0,0);
@@ -54,14 +62,6 @@ h1.credito
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(184,134,11);
-	font-size : 50px;
-}
-h1.index
-{
-	background-color: rgb(200,200,200);
-	box-shadow : 1px 1px 1px 1px gray;
-	border-radius : 10px;
-	color : rgb(0,0,0);
 	font-size : 50px;
 }
 h1.processos
@@ -77,7 +77,15 @@ h1.publicacoes
 	background-color: rgb(200,200,200);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
-	color : rgb(34,139,34);
+	color : rgb(85,107,47);
+	font-size : 50px;
+}
+h1.creditos
+{
+	background-color: rgb(200,200,200);
+	box-shadow : 1px 1px 1px 1px gray;
+	border-radius : 10px;
+	color : black;
 	font-size : 50px;
 }
 body
@@ -93,16 +101,40 @@ div.principal
 	margin-right : 150px;
 	padding-bottom : 25px;
 	position : absolute;
-	background-image : url('imagens/imagem_conceito.png');
 	box-shadow : 5px 5px 5px 5px black;
+	background-color : white;
 }
 
+div#inicio
+{
+
+	background-color : white;
+}
+div#sistema
+{
+	background-image : url('imagens/imagem_sistema.png');
+}
+div#conceito
+{
+	background-image : url('imagens/imagem_conceito.png');
+}
+div#legislacao
+{
+	background-image : url('imagens/imagem_publicacoesoficiais_cinza.png');
+}
+div#processos
+{
+	background-image : url('imagens/imagem_processodetrabalho_cinza.png');
+}
+div#publicacoes 
+{
+	background-image : url('imagens/imagem_publicacoes_cinza.png');
+}
 div.principal h1
 {
 	text-align : center;
 }
 div#menu{
-	display : block;
 	position : absolute;
 }
 a

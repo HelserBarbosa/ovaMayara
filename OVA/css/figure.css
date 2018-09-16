@@ -1,16 +1,20 @@
 @charset "UTF-8";
-
+	
+	figure.menu
+	{
+		padding-bottom : 50px;
+	}
 	figure.menu img
 	{
-		box-shadow : 1px 1px gray;
-		position : relative;
-		left  : -250px;
-		width : 10%;		
-	}
+		right : 210px;
+		position : absolute;
+		width : 70%;	
+		padding : 50px;
+	}	
 	figure.menu figcaption
 	{	
-		left : -248px;
-		top : -35px;
+		top : 70px;
+		right : 245px ;
 		text-decoration : none;
 		color : gray;
 		font-family : Overlock, sans-serif;
@@ -19,8 +23,8 @@
 		position : relative;
 		opacity : 0;
 		transition : opacity 1s;
-		size : 
 	}
+	
 	figure.menu:hover figcaption
 	{
 			opacity: 1 ; 
@@ -30,6 +34,13 @@
 		display: flex;
 		justify-content : center;
 	}
+	figure.imagemProcesso
+	{
+		display: flex;
+		justify-content : center;	
+		box-shadow : 3px 3px 3px 3px black ;
+	}
+	
 	figure.link
 	{
 		display : block;
@@ -77,4 +88,41 @@
 	figure.dicas
 	{
 		display : block;
+	}
+	figure.atividade
+	{
+		margin-right : 300px;
+		margin-left : 300px;
+		display : block;
+		box-shadow : 2px 2px 2px 2px rgb(50,50,50);
+		background-color : rgb(150,150,150);
+		border-radius : 10px;
+		position : relative;
+	}
+	figure.atividade figcaption
+	{
+		font-weight : bolder;
+		color : rgb(137,34,34);
+		position : relative;
+		top : -35px;
+		left : 80px;
+		font-size : small;
+	}
+	figure.atividade img 
+	{
+		position : relative;
+		top : 20px;
+		left : 10px
+	}
+	figure.atividade a
+	{
+		color : black;
+		font-size : 20px;
+	}
+	figure.creditos
+	{
+		position : absolute;
+		display: block;
+		left : 500px;
+		bottom : 250px;
 	}
