@@ -5,6 +5,18 @@
 		<title>OVA MAYARA</title>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css" >
 		<link rel="stylesheet" type="text/css" href="css/figure.css" >	
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<script>
+			$(function() {
+				$("#accordion").accordion({
+				collapsible: true,
+				autoHeight: false,
+				active : false		
+				})
+			});
+		</script>
 	</head>
 	<body>
 				<div id = "conceito" class = "principal">
@@ -44,63 +56,85 @@
 							saúde e ao sistema prisional, a fim de tornar a</br>
 							aprendizagem mais fácil!
 						</h4>
+					<div id="accordion">
 						<h1>Sistema Único de Saúde (SUS)</h1>
-							<h2>
-								É a denominação do sistema público de saúde no Brasil, que
-								garante acesso integral, universal e igualitário à população brasileira, perpassando por todos os
-								níveis de complexidade.
-							</h2>
+							<div>
+								<h2>
+									É a denominação do sistema público de saúde no Brasil, que
+									garante acesso integral, universal e igualitário à população brasileira, perpassando por todos os
+									níveis de complexidade.
+								</h2>
+							</div>
+							
 							<h1>Lei de Execuções Penais (LEP)</h1>
-							<h2>
-								A execução penal tem por objetivo efetivar as disposições de
-								sentença ou decisão criminal e proporcionar condições para a harmônica integração social da
-								Pessoa Privada de Liberdade (PPL). Ainda afirma que o Estado deve prover assistência a PPL
-								nos âmbitos material; de saúde; jurídica; educacional; social e religiosa.
-							</h2>
+							<div>
+								<h2>
+									A execução penal tem por objetivo efetivar as disposições de
+									sentença ou decisão criminal e proporcionar condições para a harmônica integração social da
+									Pessoa Privada de Liberdade (PPL). Ainda afirma que o Estado deve prover assistência a PPL
+									nos âmbitos material; de saúde; jurídica; educacional; social e religiosa.
+								</h2>
+							</div>
+							
 							<h1>Plano Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade (PNSSP)</h1>
-							<h2>
-								O
-								PNSSP foi a primeira legislação específica que trata da saúde das Pessoas Privadas de Liberdade
-								(PPL) e prevê a inclusão da população penitenciária no SUS, em que a inclusão da população
-								penitenciária no SUS, garantindo que o direito à cidadania se efetive na perspectiva dos
-								direitos humanos e contempla, essencialmente, a população recolhida em penitenciárias,
-								presídios, colônias agrícolas e/ou agroindustriais e hospitais de custódia e tratamento, não
-								incluindo presos do regime aberto e presos provisórios, recolhidos em cadeias públicas e
-								distritos policiais
-							</h2>
+							<div>
+								<h2>
+									O
+									PNSSP foi a primeira legislação específica que trata da saúde das Pessoas Privadas de Liberdade
+									(PPL) e prevê a inclusão da população penitenciária no SUS, em que a inclusão da população
+									penitenciária no SUS, garantindo que o direito à cidadania se efetive na perspectiva dos
+									direitos humanos e contempla, essencialmente, a população recolhida em penitenciárias,
+									presídios, colônias agrícolas e/ou agroindustriais e hospitais de custódia e tratamento, não
+									incluindo presos do regime aberto e presos provisórios, recolhidos em cadeias públicas e
+									distritos policiais
+								</h2>
+							</div>
+
 							<h1>Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema
 								Prisional (PNAISP)</h1>
-							<h2>
-								Oferece ações de promoção da saúde e prevenção de agravos no sistema
-								prisional, em todo o itinerário carcerário para toda a população privada de liberdade, e
-								também para os profissionais destes serviços penais, familiares e outras pessoas relacionadas
-								ao sistema, como voluntários.
-							</h2>
+							<div>
+								<h2>
+									Oferece ações de promoção da saúde e prevenção de agravos no sistema
+									prisional, em todo o itinerário carcerário para toda a população privada de liberdade, e
+									também para os profissionais destes serviços penais, familiares e outras pessoas relacionadas
+									ao sistema, como voluntários.
+								</h2>
+							</div>
+							
 							<h1>Equipe de Atenção Básica Prisional (EABP)</h1>
-							<h2>
-								Equipe multiprofissional responsável para
-								desenvolver as ações de saúde direcionadas a população privada de liberdade, cuja formação
-								será relacionado ao número de pessoas privadas de liberdade por unidade prisional; vinculação
-								dos serviços de saúde a uma unidade básica de saúde no território e ainda a existência de
-								demandas referentes à saúde mental. Assim, as EABP podem ser classificadas em I, II ou III e
-								cada equipe poderá ser composta por médico, um enfermeiro, um técnico de enfermagem ou
-								auxiliar de enfermagem, um cirurgião dentista e um técnico ou auxiliar de saúde bucal, um
-								psicólogo, um assistente social e um profissional de nível superior dentre as seguintes
-								ocupações: fisioterapia, psicologia, assistência social, farmácia, terapia ocupacional, nutrição
-								ou enfermagem e médico psiquiatra.
-							</h2>
+							<div>
+								<h2>
+									Equipe multiprofissional responsável para
+									desenvolver as ações de saúde direcionadas a população privada de liberdade, cuja formação
+									será relacionado ao número de pessoas privadas de liberdade por unidade prisional; vinculação
+									dos serviços de saúde a uma unidade básica de saúde no território e ainda a existência de
+									demandas referentes à saúde mental. Assim, as EABP podem ser classificadas em I, II ou III e
+									cada equipe poderá ser composta por médico, um enfermeiro, um técnico de enfermagem ou
+									auxiliar de enfermagem, um cirurgião dentista e um técnico ou auxiliar de saúde bucal, um
+									psicólogo, um assistente social e um profissional de nível superior dentre as seguintes
+									ocupações: fisioterapia, psicologia, assistência social, farmácia, terapia ocupacional, nutrição
+									ou enfermagem e médico psiquiatra.
+								</h2>
+							</div>
+							
 							<h1>Unidades Básicas de Saúde Prisional (UBSp)</h1>
-							<h2>
-								Estrutura física em que são desenvolvidos os
-								atendimentos da EABP.
-							</h2>
+							<div>
+								<h2>
+									Estrutura física em que são desenvolvidos os
+									atendimentos da EABP.
+								</h2>
+							</div>
+							
 							<h1>Sistema de Informação Penitenciária (INFOPEN)</h1>
-							<h2>
-								Trata-se de um Sistema de Informação em que
-								contém um banco de dados com informações de todas as unidades prisionais brasileiras,
-								incluindo dados de infraestrutura, seções internas, recursos humanos, capacidade, gestão,
-								assistências, população prisional, perfil das pessoas presas, entre outros.
-							</h2>
+							<div>
+								<h2>
+									Trata-se de um Sistema de Informação em que
+									contém um banco de dados com informações de todas as unidades prisionais brasileiras,
+									incluindo dados de infraestrutura, seções internas, recursos humanos, capacidade, gestão,
+									assistências, população prisional, perfil das pessoas presas, entre outros.
+								</h2>
+							</div>
+						</div>
 							<figure class = "atividade">
 								<img src = "imagens/atividade.jpg">
 								<figcaption>
