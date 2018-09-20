@@ -4,6 +4,7 @@ h3
 {
 	text-align : justify;
 	width : 40%;
+	font-family : overlock : sans-serif;
 }
 h2.span
 {
@@ -15,7 +16,7 @@ h3.ano1984
 {
 	position : absolute;
 	bottom : 2575px;
-	font-size : 15px;
+	font-size : 13px;
 	text-align : justify;
 }
 h5.ano1984
@@ -42,7 +43,7 @@ h5.ano2003
 	text-align : center;
 	display : float;
 	left : 463px;
-	bottom : 2250px;
+	bottom : 2350px;
 	background : white;
 	margin-right : 830px;
 	font-size : 25px;
@@ -50,7 +51,7 @@ h5.ano2003
 h6.ano2003
 {
 	position : absolute;
-	bottom : 2220px;
+	bottom : 2320px;
 	right : 100px;
 	font-size : 25px;
 	font-family : Overlock, sans-serif;
@@ -58,9 +59,9 @@ h6.ano2003
 h3.ano2003
 {
 	position : absolute;
-	bottom : 2150px;
+	bottom : 2250px;
 	right : 50px;
-	font-size : 15px;
+	font-size : 13px;
 	text-align : justify;
 }
 h5.ano2014
@@ -87,7 +88,7 @@ h3.ano2014direita
 	position : absolute;
 	bottom : 1330px;
 	right : 50px;
-	font-size : 15px;
+	font-size : 13px;
 	text-align : justify;
 }
 h6.ano2014esquerda
@@ -101,7 +102,7 @@ h3.ano2014esquerda
 {
 	position : absolute;
 	bottom : 1320px;
-	font-size : 15px;
+	font-size : 13px;
 	text-align : justify;
 }
 figure.atividadeLegislacao
@@ -140,7 +141,7 @@ div.myDIV
 	position : absolute;
 	left : 10px;
 	display : none;
-	background-color : rgb(169,169,169);
+	background-color : rgb(220,220,220);
 	box-shadow : 2px 2px 2px 2px black;
 	border-radius : 10px;
 	width : 90%;
