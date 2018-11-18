@@ -15,6 +15,12 @@ h2
 	font-size : 20px;
 	text-indent : 60px;
 }
+h2.creditos
+{
+	font-weight : normal;
+	font-size : 20px;
+	text-indent : 0px;
+}
 h1.titulo
 {
 	

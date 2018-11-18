@@ -15,7 +15,7 @@ h2.span
 h3.ano1984
 {
 	position : absolute;
-	bottom : 2575px;
+	bottom : 3075px;
 	font-size : 13px;
 	text-align : justify;
 }
@@ -25,7 +25,7 @@ h5.ano1984
 	text-align : center;
 	display : float;
 	left : 463px;
-	bottom : 2650px;
+	bottom : 3150px;
 	background : white;
 	margin-right : 830px;
 	font-size : 25px;
@@ -33,7 +33,7 @@ h5.ano1984
 h6.ano1984
 {
 	position : absolute;
-	bottom : 2630px;
+	bottom : 3130px;
 	font-size : 25px;
 	font-family : Overlock, sans-serif;
 }
@@ -43,7 +43,7 @@ h5.ano2003
 	text-align : center;
 	display : float;
 	left : 463px;
-	bottom : 2350px;
+	bottom : 2850px;
 	background : white;
 	margin-right : 830px;
 	font-size : 25px;
@@ -51,7 +51,7 @@ h5.ano2003
 h6.ano2003
 {
 	position : absolute;
-	bottom : 2320px;
+	bottom : 2820px;
 	right : 100px;
 	font-size : 25px;
 	font-family : Overlock, sans-serif;
@@ -59,7 +59,7 @@ h6.ano2003
 h3.ano2003
 {
 	position : absolute;
-	bottom : 2250px;
+	bottom : 2750px;
 	right : 50px;
 	font-size : 13px;
 	text-align : justify;
@@ -70,7 +70,7 @@ h5.ano2014
 	text-align : center;
 	display : float;
 	left : 463px;
-	bottom : 1500px;
+	bottom : 2000px;
 	background : white;
 	margin-right : 830px;
 	font-size : 25px;
@@ -78,15 +78,30 @@ h5.ano2014
 h6.ano2014direita
 {
 	position : absolute;
-	bottom : 1430px;
+	bottom : 1930px;
 	right : 60px;
+	font-size : 25px;
+	font-family : Overlock, sans-serif;
+}
+h6.ano2014direita2{
+	position : absolute;
+	bottom : 1350px;
+	right : 10px;
 	font-size : 25px;
 	font-family : Overlock, sans-serif;
 }
 h3.ano2014direita
 {
 	position : absolute;
-	bottom : 1330px;
+	bottom : 1830px;
+	right : 50px;
+	font-size : 13px;
+	text-align : justify;
+}
+h3.ano2014direita2
+{
+	position : absolute;
+	bottom : 1290px;
 	right : 50px;
 	font-size : 13px;
 	text-align : justify;
@@ -94,16 +109,27 @@ h3.ano2014direita
 h6.ano2014esquerda
 {
 	position : absolute;
-	bottom : 1430px;
+	bottom : 1930px;
 	font-size : 25px;
 	font-family : Overlock, sans-serif;
 }
 h3.ano2014esquerda
 {
 	position : absolute;
-	bottom : 1320px;
+	bottom : 1820px;
 	font-size : 13px;
 	text-align : justify;
+}
+h5.ano2015
+{
+	position : absolute;
+	text-align : center;
+	display : float;
+	left : 463px;
+	bottom : 1200px;
+	background : white;
+	margin-right : 830px;
+	font-size : 25px;
 }
 figure.atividadeLegislacao
 {
