@@ -27,11 +27,11 @@ h1.titulo
 	font-size : 50px;
 	text-shadow : 2px 2px gray;
 	border-radius : 10px;
-	background-color: rgb(150,150,150);
+	background-color: rgb(211,211,211);
 }
 h1.inicio
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(0,0,139);
@@ -40,7 +40,7 @@ h1.inicio
 
 h1.sistema
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(184,134,11);
@@ -48,7 +48,7 @@ h1.sistema
 }
 h1.legislacao
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(139,69,19);
@@ -56,7 +56,7 @@ h1.legislacao
 }
 h1.conceito
 {
-	background-color: rgb(150,150,150);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(0,0,0);
@@ -64,7 +64,7 @@ h1.conceito
 }
 h1.credito
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(184,134,11);
@@ -72,7 +72,7 @@ h1.credito
 }
 h1.processos
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(139,0,0);
@@ -80,7 +80,7 @@ h1.processos
 }
 h1.publicacoes
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : rgb(85,107,47);
@@ -88,7 +88,7 @@ h1.publicacoes
 }
 h1.creditos
 {
-	background-color: rgb(200,200,200);
+	background-color: rgb(211,211,211);
 	box-shadow : 1px 1px 1px 1px gray;
 	border-radius : 10px;
 	color : black;
